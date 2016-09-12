@@ -1,0 +1,58 @@
+ * {
+ 	font-family: Arial, Calibri, Impact;
+ }
+
+.w_message {
+	text-align: center;
+	color:red;
+	font-size:50px;
+}
+
+ #nav_list {
+ 	font-family: Arial, Calibri, Impact;
+ 	font-size:22px;
+ 	height:4%;
+	text-align: center;
+	text-decoration: none;
+	border:2px solid black;
+	margin-left: 10%;
+	margin-right:10%;
+	display: block;
+	background-color: #404040;
+	color:white;
+}
+
+#nav_list li {
+    display:inline;
+    text-align:center;
+    word-spacing:10px;
+}
+
+#nav_list li a {
+	width:50px;
+	word-spacing:0px;
+}
+
+#nav_list li a:hover {
+    color:white;
+    background-color:purple;
+}
+
+#nav_list li a:link {
+    color:white;
+    text-decoration:none;
+}
+
+#nav_list li a:hover {
+    color:white;
+    text-decoration:none;
+    border:3px solid black;
+    border-radius:4px;
+    padding-right:2px;
+    padding-left:2px;
+}
+
+#nav_list li a:visited {
+	color:white;
+	text-decoration: none;
+}
